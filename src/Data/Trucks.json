@@ -1,0 +1,58 @@
+[
+    {
+    "brand":"MAN",
+    "model":"TGX Euro 5",
+    "year":"2008",
+    "price":"$50,000",
+    "id":1
+    },
+    {
+        "brand":"Scania",
+        "model":"R Series",
+        "year":"2008",
+        "price":"$100,000",
+        "id":2
+    },
+    {
+        "brand":"Scania",
+        "model":"Next Gen R Series",
+        "year":"2016",
+        "price":"$200,000",
+        "id":3
+    },
+    {
+        "brand":"Scania",
+        "model":"Next Gen S Series",
+        "year":"2016",
+        "price":"$250,000",
+        "id":4
+    },
+    {
+        "brand":"DAF",
+        "model":"XF 105",
+        "year":"2012",
+        "price":"$110,000",
+        "id":5
+    },
+    {
+        "brand":"MAN",
+        "model":"TGX Euro 6",
+        "year":"2018",
+        "price":"$300,000",
+        "id":6
+    },
+    {
+        "brand":"Peterbilt",
+        "model":"579",
+        "year":"2017",
+        "price":"$255,000",
+        "id":7
+    },
+    {
+        "brand":"Kenworth",
+        "model":"W900",
+        "year":"2015",
+        "price":"$160,000",
+        "id":8
+    }
+]

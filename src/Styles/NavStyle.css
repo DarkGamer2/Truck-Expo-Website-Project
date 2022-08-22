@@ -1,0 +1,30 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navigation-bar li {
+    text-align: center;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding: 18px;
+    font-family: Lato, sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #a200ff;
+}
+
+.navigation-bar ul {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-self: left;
+    padding: 20px 10%;
+}

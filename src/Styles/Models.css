@@ -1,0 +1,35 @@
+.model-container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+    height: 40%;
+}
+
+.content {
+    display: block;
+    align-items: center;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.line {
+    width: 20px;
+    height: 6px;
+    background-color: blue;
+    animation: ease-in-out;
+}
+
+.model-container {
+    padding: 30px;
+    background-color: whitesmoke;
+}
+
+.space {
+    height: 30px;
+}

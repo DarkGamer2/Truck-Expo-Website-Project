@@ -1,0 +1,242 @@
+[
+    {
+        "brand": "MAN",
+        "model": "TGX Euro 5",
+        "imageURL": "https://autoline-au.com/img/s/tractor-unit-MAN-TGX-18-440-EURO-5-INTARDER---1657702656502356266_common--22071311572591946000.jpg",
+        "year": "2008",
+        "price": "$50,000",
+        "id": 1
+    },
+    {
+        "brand": "Scania",
+        "model": "R Series",
+        "imageURL": "https://i.machinio.com/medium/9rn638/2706555610.jpg",
+        "year": "2008",
+        "price": "$100,000",
+        "id": 2
+    },
+    {
+        "brand": "Scania",
+        "model": "Next Gen R Series",
+        "imageURL": "https://live.staticflickr.com/619/31504565955_9d6800457b_b.jpg",
+        "year": "2016",
+        "price": "$200,000",
+        "id": 3
+    },
+    {
+        "brand": "Scania",
+        "model": "Next Gen S Series",
+        "imageURL": "https://i.imgur.com/vtd19mj.jpg",
+        "year": "2016",
+        "price": "$250,000",
+        "id": 4
+    },
+    {
+        "brand": "DAF",
+        "model": "XF 105",
+        "imageURL": "https://autoline.info/img/s/tractor-unit-DAF-XF-105-510---1588441771974701369_big--20050220373746365100.jpg",
+        "year": "2012",
+        "price": "$110,000",
+        "id": 5
+    },
+    {
+        "brand": "MAN",
+        "model": "TGX Euro 6",
+        "imageURL": "https://www.trucksnl.com/pictures/ad-7045566-300621391995d1ce/cab_over_engine_man_tgx_18_2018_euro_6_929006km_2018_7045566.jpg?format=jpg&quality=70&w=1110&h=832",
+        "year": "2018",
+        "price": "$300,000",
+        "id": 6
+    },
+    {
+        "brand": "Iveco",
+        "model": "Stralis",
+        "imageURL": "https://www.sotrex.com/media/catalog/product/cache/1/image/040ec09b1e35df139433887a97daa66f/w/d/wd05web_-_1_1.jpg",
+        "year": "2007",
+        "price": "$90,000",
+        "id": 7
+    },
+    {
+        "brand": "Iveco",
+        "model": "Stralis Hi Way Euro 6",
+        "imageURL": "https://d9z1tpn605xsl.cloudfront.net/mascus/ext/06-26/4ec5e04c-1.jpg",
+        "year": "2013",
+        "price": "$120,000",
+        "id": 8
+    },
+    {
+        "brand": "Renault",
+        "model": "Magnum",
+        "imageURL": "https://www.sotrex.com/media/catalog/product/cache/1/image/040ec09b1e35df139433887a97daa66f/y/x/yx57efw_-_1.jpg",
+        "year": "2011",
+        "price": "$100,000",
+        "id": 9
+    },
+    {
+        "brand": "Mercedes Benz",
+        "model": "Actros MP2 1844",
+        "imageURL": "https://i.ytimg.com/vi/9uJR4-JzuFU/hqdefault.jpg",
+        "year": "2009",
+        "price": "$80,000",
+        "id": 10
+    },
+    {
+        "brand": "ERF",
+        "model": "EC11 Body Tipper",
+        "imageURL": "https://www.sotrex.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/t/8/t899jvr-3.jpg",
+        "year": "2000",
+        "price": "$50,000",
+        "id": 11
+    },
+    {
+        "brand": "Volvo",
+        "model": "FM",
+        "imageURL": "https://www.trucksnl.com/pictures/ad-6557350-8615f6203a81ee7e/drop_side_truck_volvo_fm_2005_6557350.jpg?format=jpg&quality=70&w=1110&h=832",
+        "year": "2005",
+        "price": "$60,000",
+        "id": 12
+    },
+    {
+        "brand": "MAN",
+        "model": "TGA",
+        "imageURL": "https://www.truck1.eu/img/Tractor_unit_MAN_TGA_XXL_360-xxl-884/884_2736746506570.jpg",
+        "year": "1999",
+        "price": "$55,000",
+        "id": 13
+    },
+    {
+        "brand": "MAN",
+        "model": "TGM",
+        "imageURL": "https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking.fr/2021/08/24/18/04/man-truck-man-tgm-2010-man-tgm-18-240-4x2-chassis-cab-for-auction-for-sale-in-kildare-for-undefined-on-done_8249565914.jpg",
+        "year": "2010",
+        "price": "$100,000",
+        "id": 14
+    },
+    {
+        "brand": "Scania",
+        "model": "143",
+        "imageURL": "data:image/jpeg;base64,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",
+        "year": "1983",
+        "price": "$20,000",
+        "id": 15
+    },
+    {
+        "brand": "Renault",
+        "model": "Premium",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Renault_Premium_%282010%29.JPG",
+        "year": "2011",
+        "price": "$110,000",
+        "id": 16
+    },
+    {
+        "brand": "Renault",
+        "model": "Premium 420 DCi",
+        "imageURL": "https://www.sotrex.com/media/catalog/product/cache/1/image/040ec09b1e35df139433887a97daa66f/k/f/kf02ptu-1.jpg",
+        "year": "2007",
+        "price": "$85,000",
+        "id": 17
+    },
+    {
+        "brand": "Volvo",
+        "model": "FH16 Classic Euro 5",
+        "imageURL": "https://img.favcars.com/volvo/fh/wallpapers_volvo_fh_2008_10_b.jpg",
+        "year": "2009",
+        "price": "$90,000",
+        "id": 18
+    },
+    {
+        "brand": "Mercedes-Benz",
+        "model": "Actros MP3 2544 LS",
+        "imageURL": "https://pbs.twimg.com/media/DJg21A5X0AAZZMF.jpg",
+        "year": "2011",
+        "price": "$110,000",
+        "id": 19
+    },
+    {
+        "brand": "Scania",
+        "model": "R Series R730 V8",
+        "imageURL": "https://cdn.wallpapersafari.com/70/71/I2cfos.jpg",
+        "year": "2009",
+        "price": "$80,000",
+        "id": 20
+    },
+    {
+        "brand": "Volvo",
+        "model": "FH",
+        "imageURL": "https://i.ytimg.com/vi/T_2HCpYpvV0/maxresdefault.jpg",
+        "year": "2016",
+        "price": "$180,000",
+        "id": 21
+    },
+    {
+        "brand": "Volvo",
+        "model": "FH12 Globethrotter",
+        "imageURL": "https://www.truck1.eu/img/Tractor_unit_VOLVO_FH12_420_Globetrotter_model_1998-xxl-1574/1574_3091684759865.jpg",
+        "year": "1998",
+        "price": "$20,000",
+        "id": 22
+    },
+    {
+        "brand": "DAF",
+        "model": "XF Euro 6",
+        "imageURL": "https://www.classtrucks.com/wp-content/uploads/2022/06/67c1f0124d008e27f3929d2a444dac7f.jpg",
+        "year": "2018",
+        "price": "$300,000",
+        "id": 23
+    },
+    {
+        "brand": "Mercedes-Benz",
+        "model": "Actros MP4",
+        "imageURL": "https://autoline.info/img/s/tractor-unit-MERCEDES-BENZ-Actros-1845-LSnRL---1650870295162334802_big--22042510042253648000.jpg",
+        "year": "2015",
+        "price": "$200,000",
+        "id": 24
+    },
+    {
+        "brand": "DAF",
+        "model": "CF",
+        "imageURL": "https://www.sotrex.com/media/catalog/product/cache/1/image/040ec09b1e35df139433887a97daa66f/y/j/yj54mso-1.jpg",
+        "year": "2010",
+        "price": "$100,000",
+        "id": 25
+    },
+    {
+        "brand": "DAF",
+        "model": "CF Euro 6",
+        "imageURL": "https://centrako.eu/wp-content/uploads/2015/01/02-2017-New-DAF-CF-FT-Space-Cab-1024x602.jpg",
+        "year": "2018",
+        "price": "$300,000",
+        "id": 26
+    },
+    {
+        "brand": "DAF",
+        "model": "LF",
+        "imageURL": "https://cdn-img.truckscout24.com/images-big/22/03/020340322_1650031646582_2de988.jpg",
+        "year": "2011",
+        "price": "$110,000",
+        "id": 27
+    },
+    {
+        "brand": "DAF",
+        "model": "LF Euro 6",
+        "imageURL": "https://www.daf.com/-/media/images/daf-imagebank/press-releases/product-introductions/2017/20170829-02-daf-introduces-new-lf.jpg",
+        "year": "2018",
+        "price": "$300,000",
+        "id": 28
+    },
+    {
+        "brand": "Renault",
+        "model": "Range T Euro 6",
+        "imageURL": "https://static.turbosquid.com/Preview/2014/07/10__17_40_15/Renault_T_02.jpg3924ae89-3944-4ce5-a2fc-30248d777c5eOriginal.jpg",
+        "year": "2018",
+        "price": "$300,000",
+        "id": 29
+    },
+    {
+        "brand": "Renault",
+        "model": "Range T Evolution Euro 6",
+        "imageURL": "https://1.bp.blogspot.com/-vlrUieviZs8/YGVa89ZW74I/AAAAAAAAZa4/hzy_6pyYHCAtg6w4Zz0xfn6KkdqhjtvCQCLcBGAsYHQ/s1920/01.jpg",
+        "year": "2021",
+        "price": "$400,000",
+        "id": 30
+    }
+]

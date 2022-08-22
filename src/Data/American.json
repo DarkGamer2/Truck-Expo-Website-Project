@@ -1,0 +1,16 @@
+[
+    {
+        "brand": "Peterbilt",
+        "model": "579",
+        "year": "2017",
+        "price": "$255,000",
+        "id": 7
+    },
+    {
+        "brand": "Kenworth",
+        "model": "W900",
+        "year": "2015",
+        "price": "$160,000",
+        "id": 8
+    }
+]
