@@ -10,3 +10,24 @@ span {
     display: flex;
     align-items: center;
 }
+
+.newsletter-button{
+    background-color: transparent;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color:blue;
+    text-align: center;
+    
+}
+
+a:hover{
+    color: red;
+}
+
+.email-input{
+    align-items: center;
+}

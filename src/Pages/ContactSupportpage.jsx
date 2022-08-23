@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Navigation from '../Components/Navigation'
 import "../Styles/ContactForm.css"
+import "../Styles/ContactGeneralStyling.css"
 const ContactSupportpage = () => {
     const [customerFirstName, setCustomerFirstName] = useState("");
     const [customerLastName, setCustomerLasttName] = useState("");

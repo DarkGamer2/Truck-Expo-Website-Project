@@ -1,0 +1,15 @@
+.branches-container{
+    display: flex;
+    align-items: center;
+}
+
+.branches-info {
+    display: block;
+    align-items: center;
+    margin: 20px;
+}
+
+.branche-image{
+    width: 50%;
+    height: 40%;
+}
