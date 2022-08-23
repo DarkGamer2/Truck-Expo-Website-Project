@@ -12,7 +12,8 @@ const Services = () => {
                         <h1>SALES</h1>
                     </div>
                     <div className="sales-info">
-
+                        <p>Sales Paragraph: Our Sales Department can assist you in your quest of owning a vehicle.
+                            They can professionally handle test drives, vehicle enquries,brochures as well as finiacial assistance.</p>
                     </div>
                     <div className="sales-image">
 
@@ -23,7 +24,9 @@ const Services = () => {
                         <h1>PARTS</h1>
                     </div>
                     <div className="parts-info">
-
+                        <p>Our Parts Center has parts for all model types as well as brands. We offer a large selection of parts for MAN,Kenworth,Freightliner,Scania,Isuzu
+                            & much more!
+                        </p>
                     </div>
                     <div className="parts-image">
 
@@ -41,6 +44,7 @@ const Services = () => {
                     </div>
                 </section>
             </div>
+            <Footer />
         </div>
     )
 }

@@ -1,43 +1,55 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Navigation from '../Components/Navigation'
-
+import "../Styles/ContactForm.css"
 const ContactSupportpage = () => {
+    const [customerFirstName, setCustomerFirstName] = useState("");
+    const [customerLastName, setCustomerLasttName] = useState("");
+    const [customerEmailAddress, setCustomerEmailAddress] = useState("");
+    const [customerOption, setCustomerOption] = useState("");
+    const [query, setQuery] = useState("");
+
+    useEffect(() => {
+        const Query = { customerFirstName, customerLastName, customerEmailAddress, customerOption, query }
+    })
+
+
     const handleSubmit = (e) => {
-
         e.preventDefault()
-        const [customerFirstName, setCustomerFirstName] = useState("");
-        const [customerLasttName, setCustomerLasttName] = useState("");
-        const [customerEmailAddress, setCustomerEmailAddress] = useState("");
-        const [customerOption, setCustomerOption] = useState("");
-        const [query, setQuery] = useState("");
-
-        useEffect(() => {
-            const Query = { customerFirstName, customerLasttName, customerEmailAddress, customerOption, query }
-        })
     }
     return (
         <div>
             <Navigation />
             <div className="form-container">
                 <form>
-                    <label htmlFor='customerFirstName'>First Name: </label>
-                    <input type={text} name={customerFirstName} onChange={(e) => setCustomerFirstName(e.target.value)} />
-                    <label htmlFor='customerLastName'>Last Name: </label>
-                    <input type={text} name={customerLastName} />
-                    <label htmlFor='customerEmailAddress'>Email: </label>
-                    <input type={email} name={customerEmailAddress} />
-                    <select>
-                        <option name="option">Select Service Type</option>
-                        <option name="option"></option>
-                        <option name="option"></option>
-                        <option name="option"></option>
-                        <option name="option"></option>
-                        <option name="option"></option>
-                    </select>
-                    <label htmlFor='query'>Query: </label>
-                    <textarea className='col-20'></textarea>
-                    <button type='submit' onSubmit={handleSubmit}>Submit</button>
+                    <div className="form-group">
+                        <label className="label" htmlFor='customerFirstName'>First Name: </label>
+                        <input type="text" name={customerFirstName} onChange={(e) => setCustomerFirstName(e.target.value)} />
+                    </div>
+                    <div className="form-group">
+                        <label className="label" htmlFor='customerLastName'>Last Name: </label>
+                        <input type="text" name={customerLastName} />
+                    </div>
+                    <div className="form-group">
+                        <label className="label" htmlFor='customerEmailAddress'>Email: </label>
+                        <input type="email" name={customerEmailAddress} />
+                    </div>
+                    <div className="form-group">
+                        <label className='label'>Select Service Type: </label>
+                        <select>
+                            <option name="option">Select Service Type</option>
+                            <option name="option"></option>
+                            <option name="option"></option>
+                            <option name="option"></option>
+                            <option name="option"></option>
+                            <option name="option"></option>
+                        </select>
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor='query'>Query: </label>
+                        <textarea className='col-20'></textarea>
+                    </div>
+                    <button type='submit' onSubmit={handleSubmit} className="request-button">Submit</button>
                 </form>
             </div>
 

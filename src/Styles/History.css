@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.content article {
+    text-align: center;
+    font-family: PT Sans, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    width: 800px;
+    height: 250px;
+    margin: auto;
+}

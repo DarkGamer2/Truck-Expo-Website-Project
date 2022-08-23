@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import Navigation from '../Components/Navigation'
-
+import { Outlet } from 'react-router-dom'
 import "../Styles/Home.css"
 const Homepage = () => {
   return (
@@ -39,10 +39,10 @@ const Homepage = () => {
 
       <h2>POWERED BY THE BEST</h2>
       <div className="container">
+        <p>Our vehicles are powered by the beasts of the industry with engines ranging from 500 hp to a monsterous 750hp. A refreshed X15 Performance Series is new to 2021 and designed to meet EPA and Greenhouse Gas Phase 2 requirements. While the X15 Performance Series is being updated from the 2017 version, many hardware changes have been in production since 2020 with the X15 Efficiency Series. Built with Uptime, improved Total Cost of Ownership and Ease of Operations in mind,
+          the 2021 X15 Performance Series is the first choice for drivers that need the power to perform.</p>
 
         <img className="image" src="https://www.cummins.com/sites/default/files/styles/product_display/public/images/engines/sku/X15-Stg-V-Stg-V00000-351/X15_StageV.png?itok=_tWq41Z4" alt="engine" />
-
-        <p>Our vehicles are powered by the beasts of the industry with engines ranging from 500 hp to a monsterous 750hp.</p>
       </div>
 
       <h2>ALL MAJOR TYPES</h2>
@@ -68,6 +68,7 @@ const Homepage = () => {
       </div>
 
       <Footer />
+      <Outlet />
     </div>
   )
 }

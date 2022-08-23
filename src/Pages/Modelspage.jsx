@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from '../Components/Navigation';
 import Footer from "../Components/Footer";
 import "../Styles/Models.css"
+import { Link } from 'react-router-dom';
 const Modelspage = () => {
     return (
         <div>
@@ -17,7 +18,7 @@ const Modelspage = () => {
                         <div className="line">
                             <span></span>
                         </div>
-                        <a href='/models'>Browse Models</a>
+                        <Link to='/models/american' className='link'>BROWSE MODELS</Link>
                     </div>
                     <img src="https://wallpaperaccess.com/full/4311238.jpg" alt='american-truck' />
 
@@ -30,7 +31,7 @@ const Modelspage = () => {
                     <div className="content">
                         <h1>EUROPEAN</h1>
                         <p>The reigning king of being simple,classic and fuel efficent</p>
-                        <a href='/models'>Browse Models</a>
+                        <Link to='/models/euro' className='link'>BROWSE MODELS</Link>
                     </div>
                     <img src="https://images.alphacoders.com/747/747000.jpg" alt='euro-truck' />
                     <div className="space">
@@ -44,7 +45,7 @@ const Modelspage = () => {
                     <div className="content">
                         <h1>JAPANESE</h1>
                         <p>Japan Trucks dominate the asian market as well as Africa & India</p>
-                        <a href='/models'>Browse Models</a>
+                        <Link to='/models/japan' className='link'>BROWSE MODELS</Link>
                     </div>
                     <img src="https://w0.peakpx.com/wallpaper/104/978/HD-wallpaper-mitsubishi-fuso-truck-mitsubishi-fuso-japanese.jpg" alt='japan-truck' />
                 </div>

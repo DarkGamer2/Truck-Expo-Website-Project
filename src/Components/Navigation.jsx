@@ -6,6 +6,7 @@ import { faTruckFront } from '@fortawesome/free-solid-svg-icons';
 import { faClockRotateLeft } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faWrench } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 const Navigation = () => {
   return (
     <div>
@@ -16,11 +17,11 @@ const Navigation = () => {
               <nav>
                 <ul>
                   <li>TRUCK EXPO</li>
-                  <li className="nav-link"><FontAwesomeIcon icon={faHouse} />HOME</li>
-                  <li className="nav-link"><FontAwesomeIcon icon={faTruckFront} />MODELS</li>
-                  <li className="nav-link"><FontAwesomeIcon icon={faClockRotateLeft} />HISTORY</li>
-                  <li className="nav-link"><FontAwesomeIcon icon={faPhone} />CONTACT & SUPPORT</li>
-                  <li className="nav-link"><FontAwesomeIcon icon={faWrench} />SERVICES</li>
+                  <li className="nav-link"><FontAwesomeIcon icon={faHouse} /><Link to='/'>HOME</Link></li>
+                  <li className="nav-link"><FontAwesomeIcon icon={faTruckFront} /><Link to='/models'>MODELS</Link></li>
+                  <li className="nav-link"><FontAwesomeIcon icon={faClockRotateLeft} /><Link to='/history'>HISTORY</Link></li>
+                  <li className="nav-link"><FontAwesomeIcon icon={faPhone} /><Link to='/contact'>CONTACT & SUPPORT</Link></li>
+                  <li className="nav-link"><FontAwesomeIcon icon={faWrench} /><Link to="/services">SERVICES</Link></li>
                 </ul>
               </nav>
             </div>
